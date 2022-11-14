@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ACS</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+	<br></br>
+	<h1 align = "center">Asian Cultural Society</h1>
+	<br></br>
+	
+ <div class="navbar">
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">Our Research
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+		<a href= "vietnam.html">Vietnam Trip</a>
+		<a href= "meeting7.html">Spirit Animals</a>
+    <a href= "meeting6.html">Traditional Clothing</a>
+    <a href="newyear.html">Lunar New Year</a>
+    <a href="meeting4.html">Holidays (12/20/21)</a>
+    <a href="meeting3.html">Street Food (11/22/21)</a>
+		<a href="meeting2.html">Meeting 2 (11/15/21)</a>
+		<a href="meeting1.html">Meeting 1 (10/25/21)</a>
+  </div>
+  </div> 
+	<a href="aboutus.html">About Us</a>
+	<a href="contact2.html">Contact</a>
+	<a href = "faq.html">FAQs</a>
+	<a href= "citations.html">Citations</a>
+</div>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,233 @@
+h1{
+  color: rgb(8, 8, 8);
+	font-size: 45px;
+	text-align: center;
+ // text-indent: -50px;
+}
+
+html{
+  background: brown;
+}
+body{
+  background: beige;
+  color: black;
+  margin-left:15%;
+  margin-right:15%;
+  padding-bottom: 100%;
+  text-indent: 50px;
+}
+.size1{
+	font-size: 30px;
+}
+
+hr{ size: 10px;}
+button{
+    border: none;
+    background: brown;
+    color: white;
+}
+.thick-blue-border{
+	border-color:rgb(23, 122, 207);
+	border-width: 5px;
+	border-style: solid;
+}
+
+.moveimg1{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.movebutton2{
+	position: relative;
+}
+
+.movebutton3{
+	position:relative;
+}
+
+a {
+	color: black;
+}
+
+a:hover{
+	color:orange;
+}
+
+.lunartiger{
+	border-color: red;
+	border-width: 10px;
+	border-style:solid;
+	top : 5px;
+	display: block;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.infopage{
+  margin-left: 50px;
+  margin-right: 50px;
+  text-indent:-50px
+}
+.gambling{
+	position: relative;
+	top: 5px;
+}
+
+.redenvelope{
+	position: relative;
+	top: 5px;
+}
+
+.liondancing{
+	position: relative;
+	top: 5px;
+}
+
+p{
+	font-size: 18px;
+}
+
+p:first-line{text-indent: 30px;}
+.eating{
+	position: relative;
+	top: 5px;
+}
+
+.more{
+	position: relative;
+	top: 5px;
+}
+.lime{
+	position: relative;
+}
+
+.clown{
+	position: relative;
+}
+nav{
+  text-align:center;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	width:50%;
+	height:40px;
+	background-color: white;
+}
+
+.grouppic{
+  text-align:center;
+}
+.aboutus{
+	tab-size: 10px;
+ // text-indent: 0px;
+  text-align:justify;
+  margin: 50px;
+}
+.indent{
+	tab-size: 10px;
+  //text-indent: 0px;
+	//text-align: absolute;
+  margin: 50px;
+}
+.activities{
+  flex-wrap: wrap;
+  display: block;
+  text-align: center;
+}
+.gmail{
+  text-align: center;
+}
+figure{
+  position: relative;
+  margin: auto;
+  display: inline-block;
+  width: 275px;
+  flex-wrap: wrap;
+  text-indent:-50px;
+  text-align: center;
+}
+
+.lunarintro{
+  text-align:center;
+}
+
+.or{
+  position: relative;
+  top: -150px;
+  font-size: 90px;
+}
+.contact{
+  display: auto;
+  text-align: center;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: orange;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: brown;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: brown;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(224, 135, 2, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: orange;
+}
+
+.show {
+  display: block;
+}
+
+.color1{
+	color:black;
+}
+
+
+
+
